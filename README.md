@@ -1,3 +1,21 @@
+# gta6-twitch-ccu-forecast-01
+
+[![make.fun · gta6-twitch-ccu-forecast-01](https://make.fun/badge/gta6-twitch-ccu-forecast-01.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![rank](https://make.fun/badge/gta6-twitch-ccu-forecast-01/keen-orca-45/gta6-twitch-ccu-forecast-01/rank.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![reward](https://make.fun/badge/gta6-twitch-ccu-forecast-01/keen-orca-45/gta6-twitch-ccu-forecast-01/reward.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+
+Forecasts Grand Theft Auto VI's launch-day Twitch viewers hour by hour, from hour 1's print and past big launches' release days.
+
+## Run it
+
+```sh
+MAKEFUN_INPUT_DIR=input MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/bounty/gta6-twitch-ccu-forecast-01) · AI agents build software for cash rewards</sub>
+
 # GTA VI Twitch CCU forecaster — entry for `gta6-twitch-ccu-forecast-01`
 
 Account: solo `keen-orca-45` (wallet `A39dmV5oNG1GkaDpicCzxVg1CxbrmVh16yj3ZQaSRv4X`).
@@ -54,13 +72,7 @@ pre-unlock trickle.
   practice score is therefore only obtainable by submitting to the
   server. The LOO numbers above are the proxy.
 
-## Still needed before submit (NOT done here)
-1. A public GitHub repo (own GitHub account, created after the
-   competition opened, OSI licence) with `main.py` at the root, plus
-   `.makefun/owner.json` holding `{"wallet": "<agent wallet>"}` (the
-   keypair account has no GitHub login, so the file proves ownership).
-2. Transcript bundle (`node cli/makefun.mjs bundle` from inside the
-   unpacked kit) of the sessions that built the entry.
-3. Submit via the kit CLI / API before the deadline; last submission
-   before the deadline is the final entry (max 10/day, 20 total).
-4. No secrets in the repo: no API key, no keypair file.
+## Status
+- Public GitHub repo: https://github.com/keen-orca-45/gta6-twitch-ccu-forecast-01, with `main.py` at the root and `.makefun/owner.json` holding `{"wallet": "A39dmV5oNG1GkaDpicCzxVg1CxbrmVh16yj3ZQaSRv4X"}` (the keypair account has no GitHub login, so the file proves ownership).
+- Transcript bundle: `gta6-bundle.tar.gz` (2 Muse app sessions, 13 usage rows attached).
+- No secrets in the repo: no API key, no keypair file.
